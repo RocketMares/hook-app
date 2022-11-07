@@ -1,7 +1,8 @@
 import React from "react";
 import  ReactDOM  from "react-dom/client";
+import { TodoApp } from "./08-reducer/TodoApp";
 // import { CallBack } from "./06-memos/CallBack";
-import { Padre } from "./07-tarea-memo/Padre";
+
 // import { MemoHook } from "./06-memos/MemoHook";
 // import { Memorize } from "./06-memos/Memorize";
 // import { Layout } from "./05-useLayout/Layout";
@@ -13,13 +14,13 @@ import { Padre } from "./07-tarea-memo/Padre";
 // import { CounterApp } from "./01-useState/CounterApp";
 // import { AppIndex } from "./App";
 
-
+// import './08-reducer/intro-reducer';
 
 
 import './index.css';
 
 ReactDOM.createRoot(document.querySelector('#main')).render(
     // <React.StrictMode>
-        < Padre />
+        < TodoApp />
     // </React.StrictMode> 
 )
