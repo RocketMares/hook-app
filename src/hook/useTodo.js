@@ -1,7 +1,7 @@
 
 
 
-import React, { useEffect, useReducer, useState } from 'react';
+import React, { useEffect, useReducer } from 'react';
 
 import { todoReducer } from "../08-reducer/todoReducer";
 
